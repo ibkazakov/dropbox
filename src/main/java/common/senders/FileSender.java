@@ -46,31 +46,11 @@ public class FileSender {
     }
 
     // FORMAL!
-    private void send(int fileID) throws IOException {
+    public void send(int fileID) throws IOException {
         Path filePath = filesMap.get(fileID);
         System.out.println(filePath.toString() + " sending!");
-
-        int blocks = (int)Math.ceil((double)Files.size(filePath) / 1024.0);
-
-        // empty file
-        if (blocks == 0) blocks = 1;
-
-        SeekableByteChannel channel = Files.newByteChannel(filePath);
-        ByteBuffer buffer = ByteBuffer.allocate(1024);
-
-        for(int i = 0; i < blocks; i++) {
-            buffer.clear();
-            channel.read(buffer);
-            byte[] currentBlock = new byte[buffer.position()];
-            buffer.flip();
-            buffer.get(currentBlock);
-
-            JSONFilePart filePart = new JSONFilePart(fileID, (int)blocks, i + 1, currentBlock);
-
-            sendToClient(JSON.toJSONString(filePart));
-
-           // System.out.println(JSON.toJSONString(filePart));
-        }
+        Thread oneFileSender = new OneFileSenderThread(filePath, fileID, this);
+        oneFileSender.start();
 
         // endSending(fileID);
     }
@@ -79,7 +59,7 @@ public class FileSender {
         filesMap.remove(fileID);
     }
 
-    private void sendToClient(String jsonString) {
+    public void sendToClient(String jsonString) {
         uplink.sendString(jsonString);
     }
 

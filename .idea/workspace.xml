@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="290c1a9c-04af-44df-8c4d-9bc30e278745" name="Default" comment="" />
+    <list default="true" id="290c1a9c-04af-44df-8c4d-9bc30e278745" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/ClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/FileListOpinion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/plan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/senders/OneFileSenderThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/y_netty/Network.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/y_netty/NetworkHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/y_netty/handler_coders/MyStringDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/y_netty/handler_coders/MyStringEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverFolder/default_client/6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverFolder/default_client/hegel.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverFolder/default_client/postedfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/someFiles/post.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/ClientAccepter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/ClientAccepter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/ClientSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/ClientSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/accepters/AnswerAccepter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/accepters/AnswerAccepter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/accepters/FileListAccepter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/senders/FileSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/senders/FileSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/y_netty/echo/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y_netty/echo/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/y_netty/echo/EchoStringServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y_netty/echo/EchoStringServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/ClientAccepter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/ClientAccepter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/ClientSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/ClientSender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/accepters/AnswerAccepter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/accepters/AnswerAccepter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/accepters/FileListAccepter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/senders/FileSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/senders/FileSender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/y_netty/echo/EchoServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/y_netty/echo/EchoServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/y_netty/echo/EchoStringServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/y_netty/echo/EchoStringServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/y_netty/echo/EchoStringServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/y_netty/echo/EchoStringServer.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,47 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServerTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tests/ServerTest.java">
+      <file leaf-file-name="plan.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/plan.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="16" column="84" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="90" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthAccepter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/AuthAccepter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerHandlerAccepter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/ServerHandlerAccepter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerPostTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tests/ServerPostTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -65,8 +61,8 @@
       <list>
         <option value="Enum" />
         <option value="Kotlin File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,6 +71,9 @@
       <find>toJ</find>
       <find>toJSONString</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -86,24 +85,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/MainClasses/accepters/FileListAccepter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MainClasses/accepters/AnswerAccepter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MainClasses/accepters/FilePartAccepter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MainClasses/JSONAnswer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MainClasses/TestJSON.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MainClasses/TestCommandAccepter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MainClasses/JSONSerializable/JSONAnswer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MainClasses/accepters/CommandAccepter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/JSONSerializable/JSONDirectory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/JSONSerializable/transmitted/JSONFileList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tests/TestCommandAccepter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/JSONSerializable/transmitted/JSONFilePart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/JSONSerializable/transmitted/JSONAnswer.java" />
         <option value="$PROJECT_DIR$/serverFolder/default_client/post.txt" />
         <option value="$PROJECT_DIR$/someFiles/post.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/common/accepters/AnswerAccepter.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/accepters/FileListAccepter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/ClientSender.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/common/JSONSerializable/transmitted/auth/JSONAuth.java" />
         <option value="$PROJECT_DIR$/src/main/java/y_netty/DiscardServerHandler.java" />
@@ -121,7 +105,6 @@
         <option value="$PROJECT_DIR$/src/main/java/y_netty/StringServerOutboundHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/y_netty/DiscardServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/y_netty/echo/MyStringEncoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/y_netty/echo/EchoStringServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/tests/PrimitiveClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/tests/PrimitiveClientHandler.java" />
@@ -130,13 +113,29 @@
         <option value="$PROJECT_DIR$/src/main/java/tests/ServerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/ServerHandlerAccepter.java" />
         <option value="$PROJECT_DIR$/src/main/java/tests/ServerPostTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/senders/FileSender.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/accepters/CommandAccepter.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/accepters/RootAccepter.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/JSONSerializable/transmitted/file_dialog/JSONEndTransmission.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/ClientAccepter.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/ServerAccepter.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/accepters/FilePartAccepter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/y_netty/NetworkHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/y_netty/echo/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/y_netty/handler_coders/MyStringDecoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/y_netty/echo/EchoStringServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/y_netty/handler_coders/MyStringEncoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/y_netty/Network.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/FileListOpinion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/senders/OneFileSenderThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/AuthSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/TryAuthAccepter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/ClientThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/accepters/AnswerAccepter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/ClientAccepter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/ClientSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/plan.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/common/senders/FileSender.java" />
       </list>
     </option>
   </component>
@@ -162,44 +161,19 @@
     <option name="width" value="1299" />
     <option name="height" value="756" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="dropbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dropbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dropbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dropbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dropbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="dropbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -208,8 +182,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,6 +195,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/y_netty" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/serverFolder/default_client" />
     </key>
@@ -239,7 +214,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ServerPostTest">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.Client" />
+      <module name="dropbox" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="EchoStringServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="y_netty.echo.EchoStringServer" />
       <module name="dropbox" />
@@ -247,6 +233,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="common.handler_coders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Network" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="y_netty.Network" />
+      <module name="dropbox" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="y_netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,28 +261,6 @@
     </configuration>
     <configuration name="ServerPostTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.ServerPostTest" />
-      <module name="dropbox" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ServerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.ServerTest" />
-      <module name="dropbox" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TestGetCommand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.TestGetCommand" />
       <module name="dropbox" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -337,19 +312,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.TestGetCommand" />
       <item itemvalue="Application.EchoStringServer" />
       <item itemvalue="Application.Server" />
-      <item itemvalue="Application.ServerTest" />
       <item itemvalue="Application.ServerPostTest" />
+      <item itemvalue="Application.Network" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServerPostTest" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
-        <item itemvalue="Application.ServerTest" />
+        <item itemvalue="Application.Network" />
         <item itemvalue="Application.EchoStringServer" />
-        <item itemvalue="Application.TestGetCommand" />
+        <item itemvalue="Application.ServerPostTest" />
       </list>
     </recent_temporary>
   </component>
@@ -380,25 +355,33 @@
       <workItem from="1538315605097" duration="9486000" />
       <workItem from="1538331588557" duration="2088000" />
       <workItem from="1538387268393" duration="10765000" />
-      <workItem from="1538406983851" duration="19381000" />
+      <workItem from="1538406983851" duration="19661000" />
+      <workItem from="1538596488184" duration="5425000" />
+      <workItem from="1538604136450" duration="1536000" />
+      <workItem from="1538643802607" duration="1199000" />
+      <workItem from="1538662554704" duration="1406000" />
+      <workItem from="1538743964387" duration="1139000" />
+      <workItem from="1538972121427" duration="33230000" />
+      <workItem from="1539069987290" duration="4119000" />
+      <workItem from="1539078472000" duration="988000" />
+      <workItem from="1539084940490" duration="3116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212571000" />
+    <option name="totallyTimeSpent" value="265009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32882884" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32882884" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32882884" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32831326" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298193" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980783" />
       <window_info anchor="right" id="Database" order="3" />
@@ -411,7 +394,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32882884" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32831326" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32831326" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,123 +406,187 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/serverFolder/default_client/1.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/JSONDirectory.java" />
-    <entry file="file://$PROJECT_DIR$/serverFolder/default_client/dir1/1.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/TestJSON.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/JSONCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/someFiles/post.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="2879" column="110" selection-start-line="2879" selection-start-column="110" selection-end-line="2879" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/JSONFileList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/JSONAnswer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/MyByteToStringDecoder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/ServerSessionStatement.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/ServerSessionStatement.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/auth/JSONAuthAnswer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/echo/EchoServer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/ClientsChannelMap.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/accepters/FileListAccepter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/senders/OneFileSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/ClientsMap.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/TestCommandAccepter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/tests/TestGetCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/tests/TestPostCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/DiscardServerHandler.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/StringServerOutboundHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/echo/EchoServerHandler.java">
+    <entry file="file://$PROJECT_DIR$/serverFolder/default_client/5.txt" />
+    <entry file="file://$PROJECT_DIR$/serverFolder/default_client/6.txt" />
+    <entry file="file://$PROJECT_DIR$/serverFolder/default_client/post.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state>
+          <caret column="70" selection-start-column="70" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/handler_coders/MyStringDecoder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/handler_coders/MyStringDecoder.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/handler_coders/MyStringEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="285">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/echo/EchoStringServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="109" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="121" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/PrimitiveClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <caret line="26" column="84" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/PrimitiveClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/echo/EchoServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+        <state relative-caret-position="150">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/JSONFilePart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="28" lean-forward="true" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/JSONCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="14" lean-forward="true" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/JSONAnswer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="21" column="19" lean-forward="true" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/auth/JSONAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="35" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/accepters/RootAccepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/handler_coders/MyStringDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="15" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/common/handler_coders/MyStringEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state>
+          <caret column="5" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" lean-forward="true" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ServerPostTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="28" column="24" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/PrimitiveClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="22" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/PrimitiveClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="20" lean-forward="true" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/file_dialog/JSONEndTransmission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/accepters/FileListAccepter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/ServerAccepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="90" column="12" selection-start-line="90" selection-end-line="92" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/accepters/CommandAccepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1911">
+          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/JSONFileList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/AuthAccepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/file_dialog/JSONGiveFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/auth/JSONAuthAnswer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/NetworkHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/TryAuthAccepter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/AuthSender.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/ServerHandlerAccepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -549,176 +597,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serverFolder/default_client/5.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/JSONFilePart.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/Network.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="180">
+          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serverFolder/default_client/6.txt">
+    <entry file="file://$PROJECT_DIR$/serverFolder/default_client/postedfile.txt" />
+    <entry file="file://$PROJECT_DIR$/someFiles/post.txt" />
+    <entry file="file://$PROJECT_DIR$/someFiles/6.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serverFolder/default_client/post.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="70" selection-start-column="70" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serverFolder/default_client/postedfile.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/file_dialog/JSONGiveFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/accepters/RootAccepter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/file_dialog/JSONEndTransmission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="294">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/ClientSender.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/FileListOpinion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="240">
+          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#get#0;class#ClientSender#0" />
-            <element signature="method#post#0;class#ClientSender#0" />
-            <element signature="method#create_dir#0;class#ClientSender#0" />
-            <element signature="method#delete#0;class#ClientSender#0" />
-            <element signature="method#move#0;class#ClientSender#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/client/ClientAccepter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/accepters/CommandAccepter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3403">
-          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/accepters/AnswerAccepter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="75" column="46" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
+        <state relative-caret-position="144">
+          <caret line="11" lean-forward="true" selection-start-line="12" selection-end-line="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/common/accepters/FilePartAccepter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#newFile#0;class#FilePartAccepter#0" />
-            <element signature="method#clear#0;class#FilePartAccepter#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/auth/JSONAuth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="3" selection-end-line="12" selection-end-column="48" />
+        <state relative-caret-position="360">
+          <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/common/senders/FileSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="method#newFile#0;class#FileSender#0" />
-            <element signature="method#clientNewFile#0;class#FileSender#0" />
-          </folding>
+        <state relative-caret-position="519">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/ServerAccepter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/ClientSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="75" column="46" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#ServerAccepter#0;class#ServerAccepter#0" />
-            <element signature="method#accept#0;class#ServerAccepter#0" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="9" column="12" selection-end-line="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/AuthAccepter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/accepters/AnswerAccepter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        <state relative-caret-position="75">
+          <caret line="14" column="7" selection-start-line="13" selection-end-line="130" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/ServerHandlerAccepter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/ClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ServerPostTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/ClientThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="true" selection-end-line="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ServerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="16" column="84" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/senders/OneFileSenderThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/plan.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>

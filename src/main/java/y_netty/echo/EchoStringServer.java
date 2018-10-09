@@ -1,7 +1,6 @@
 package y_netty.echo;
 
-import common.handler_coders.MyStringDecoder;
-import common.handler_coders.MyStringEncoder;
+
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -10,6 +9,8 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import y_netty.handler_coders.MyStringDecoder;
+import y_netty.handler_coders.MyStringEncoder;
 
 public class EchoStringServer {
     public void run() throws Exception {

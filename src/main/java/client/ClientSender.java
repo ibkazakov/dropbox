@@ -2,13 +2,16 @@ package client;
 
 import com.alibaba.fastjson.JSON;
 import common.JSONSerializable.JSONCommand;
+import io.netty.channel.Channel;
 
 import java.nio.file.Path;
 
 // command generator. FORMAL.
 public class ClientSender {
-    private Path clientPath;
+
+    private Channel serverChannel;
     private int nextfreeID = 1;
+
 
     // get, post, create_dir, delete, move, getfileList
     // ??? checking correctness(later)
@@ -37,7 +40,13 @@ public class ClientSender {
     }
 
     public void move(String from, String to) {
-        JSONCommand command = new JSONCommand(nextfreeID, "get", from, to);
+        JSONCommand command = new JSONCommand(nextfreeID, "move", from, to);
+        nextfreeID++;
+        execute(command);
+    }
+
+    public void getfilelist() {
+        JSONCommand command = new JSONCommand(nextfreeID, "getfilelist");
         nextfreeID++;
         execute(command);
     }
@@ -48,6 +57,11 @@ public class ClientSender {
     private void execute(JSONCommand command) {
         String sendString = JSON.toJSONString(command);
         // send to the net point:
+        serverChannel.writeAndFlush(sendString);
+    }
 
+
+    public void setServerChannel(Channel serverChannel) {
+        this.serverChannel = serverChannel;
     }
 }
