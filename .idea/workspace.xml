@@ -2,37 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="290c1a9c-04af-44df-8c4d-9bc30e278745" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/ClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/FileListOpinion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/plan.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/senders/OneFileSenderThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/y_netty/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/y_netty/NetworkHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/y_netty/handler_coders/MyStringDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/y_netty/handler_coders/MyStringEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/database/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/gui/ActionsGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/gui/ServerGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/gui/contollers/ClientsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/gui/contollers/ConnectedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/gui/contollers/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/gui/contollers/StartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/gui/description.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/GUI_FXML/server/clients.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/GUI_FXML/server/connected.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/GUI_FXML/server/log.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/GUI_FXML/server/start.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverFolder/default_client/6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverFolder/default_client/hegel.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverFolder/default_client/postedfile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/someFiles/post.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/ClientAccepter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/ClientAccepter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/ClientSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/ClientSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/accepters/AnswerAccepter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/accepters/AnswerAccepter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/accepters/FileListAccepter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/senders/FileSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/senders/FileSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/y_netty/echo/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y_netty/echo/EchoServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/y_netty/echo/EchoStringServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/y_netty/echo/EchoStringServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/ClientAccepter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/ClientAccepter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/ClientSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/ClientSender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/accepters/AnswerAccepter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/accepters/AnswerAccepter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/accepters/FileListAccepter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverFolder/default_client/renamed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/ClientThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/AuthAccepter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/AuthAccepter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ServerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/ServerHandlerAccepter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ServerHandlerAccepter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/PrimitiveClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/PrimitiveClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ServerPostTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ServerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/y_netty/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/y_netty/Network.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/y_netty/NetworkHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/y_netty/echo/EchoServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/y_netty/echo/EchoStringServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/y_netty/handler_coders/MyStringDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/y_netty/handler_coders/MyStringEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/ClientThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/ClientThread$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/plan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/plan.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/common/senders/FileSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/senders/FileSender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/y_netty/echo/EchoServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/y_netty/echo/EchoServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/y_netty/echo/EchoStringServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/y_netty/echo/EchoStringServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/y_netty/echo/EchoStringServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/y_netty/echo/EchoStringServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/AuthAccepter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/AuthAccepter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/Server$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/ServerHandlerAccepter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/ServerHandlerAccepter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/PrimitiveClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/PrimitiveClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/PrimitiveClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/ServerPostTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/ServerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/y_netty/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/y_netty/Network$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/y_netty/Network.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/y_netty/NetworkHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/y_netty/echo/EchoServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/y_netty/echo/EchoStringServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/y_netty/echo/EchoStringServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/y_netty/handler_coders/MyStringDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/y_netty/handler_coders/MyStringEncoder.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,17 +66,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="plan.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/client/plan.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,6 +74,7 @@
         <option value="Enum" />
         <option value="Kotlin File" />
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -85,22 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/serverFolder/default_client/post.txt" />
-        <option value="$PROJECT_DIR$/someFiles/post.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/common/accepters/FileListAccepter.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/common/JSONSerializable/transmitted/auth/JSONAuth.java" />
-        <option value="$PROJECT_DIR$/src/main/java/y_netty/DiscardServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/y_netty/MyByteToStringDecoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/y_netty/StringDecoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/y_netty/MyStringDecoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/ServerSessionStatement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/JSONSerializable/transmitted/auth/JSONAuthAnswer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/y_netty/echo/EchoServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/ClientsChannelMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tests/TestGetCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/y_netty/DiscardClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tests/TestPostCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/y_netty/StringServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/y_netty/StringServerOutboundHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/y_netty/DiscardServer.java" />
@@ -108,10 +105,8 @@
         <option value="$PROJECT_DIR$/src/main/java/server/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/tests/PrimitiveClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/tests/PrimitiveClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/AuthAccepter.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/JSONSerializable/transmitted/file_dialog/JSONGiveFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/tests/ServerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/ServerHandlerAccepter.java" />
         <option value="$PROJECT_DIR$/src/main/java/tests/ServerPostTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/accepters/CommandAccepter.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/accepters/RootAccepter.java" />
@@ -128,14 +123,32 @@
         <option value="$PROJECT_DIR$/src/main/java/common/senders/OneFileSenderThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/AuthSender.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/TryAuthAccepter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/ClientThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/accepters/AnswerAccepter.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/ClientHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/ClientAccepter.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/ClientSender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/plan.txt" />
         <option value="$PROJECT_DIR$/src/main/java/common/senders/FileSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/gui/contollers/Controllers.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/GUI_FXML/server/log.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/server/gui/contollers/LogController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/server/AuthAccepter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/ServerHandlerAccepter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/gui/ConnectionParams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/ServerThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/database/DataBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/gui/ServerGUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/gui/contollers/StartController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/GUI_FXML/server/connected.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/GUI_FXML/server/start.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/GUI_FXML/server/clients.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/server/gui/contollers/ConnectedController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/gui/contollers/ClientsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/gui/description.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/server/gui/ActionsGUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/ClientThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/Client.java" />
       </list>
     </option>
   </component>
@@ -169,11 +182,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
+              <item name="serverFolder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="dropbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -182,23 +220,28 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Прочие материалы/Урок 1/JavaFX CookBook" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/y_netty" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/serverFolder" />
       <recent name="$PROJECT_DIR$/serverFolder/default_client" />
     </key>
   </component>
@@ -226,13 +269,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="EchoStringServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="y_netty.echo.EchoStringServer" />
+    <configuration name="DataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.database.DataBase" />
       <module name="dropbox" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="common.handler_coders.*" />
+          <option name="PATTERN" value="server.database.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,24 +291,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="server.Server" />
+    <configuration name="ServerGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.gui.ServerGUI" />
+      <module name="dropbox" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ServerThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.ServerThread" />
       <module name="dropbox" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ServerPostTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.ServerPostTest" />
-      <module name="dropbox" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,19 +355,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.EchoStringServer" />
-      <item itemvalue="Application.Server" />
-      <item itemvalue="Application.ServerPostTest" />
+      <item itemvalue="Application.ServerThread" />
       <item itemvalue="Application.Network" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.ServerGUI" />
+      <item itemvalue="Application.DataBase" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.ServerGUI" />
+        <item itemvalue="Application.DataBase" />
+        <item itemvalue="Application.ServerThread" />
         <item itemvalue="Application.Network" />
-        <item itemvalue="Application.EchoStringServer" />
-        <item itemvalue="Application.ServerPostTest" />
       </list>
     </recent_temporary>
   </component>
@@ -364,23 +407,34 @@
       <workItem from="1538972121427" duration="33230000" />
       <workItem from="1539069987290" duration="4119000" />
       <workItem from="1539078472000" duration="988000" />
-      <workItem from="1539084940490" duration="3116000" />
+      <workItem from="1539084940490" duration="4317000" />
+      <workItem from="1539354739834" duration="7472000" />
+      <workItem from="1539425552831" duration="6198000" />
+      <workItem from="1539433491979" duration="8398000" />
+      <workItem from="1539446234575" duration="5818000" />
+      <workItem from="1539454346456" duration="4529000" />
+      <workItem from="1539460227919" duration="4717000" />
+      <workItem from="1539467392177" duration="3136000" />
+      <workItem from="1539498693151" duration="5541000" />
+      <workItem from="1539520067068" duration="22933000" />
+      <workItem from="1539546563008" duration="8185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265009000" />
+    <option name="totallyTimeSpent" value="343137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32831326" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32882884" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32831326" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34186748" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298193" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980783" />
@@ -395,7 +449,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32831326" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32831326" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,110 +459,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/TestGetCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/TestPostCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/DiscardServerHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/StringServerOutboundHandler.java" />
-    <entry file="file://$PROJECT_DIR$/serverFolder/default_client/5.txt" />
-    <entry file="file://$PROJECT_DIR$/serverFolder/default_client/6.txt" />
-    <entry file="file://$PROJECT_DIR$/serverFolder/default_client/post.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="70" selection-start-column="70" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/handler_coders/MyStringDecoder.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/handler_coders/MyStringEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/echo/EchoStringServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="84" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/echo/EchoServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/JSONFilePart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" lean-forward="true" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/JSONCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="14" lean-forward="true" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/JSONAnswer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="21" column="19" lean-forward="true" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/auth/JSONAuth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/accepters/RootAccepter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="36" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/handler_coders/MyStringDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="15" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/handler_coders/MyStringEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ServerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" lean-forward="true" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ServerPostTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="28" column="24" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tests/PrimitiveClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -532,31 +485,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/common/accepters/FileListAccepter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/ServerAccepter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="90" column="12" selection-start-line="90" selection-end-line="92" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/accepters/CommandAccepter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1911">
-          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/common/JSONSerializable/JSONFileList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/AuthAccepter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -583,13 +515,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/client/TryAuthAccepter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/client/AuthSender.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/ServerHandlerAccepter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/y_netty/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -609,20 +534,10 @@
     <entry file="file://$PROJECT_DIR$/someFiles/6.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/client/FileListOpinion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,9 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="11" lean-forward="true" selection-start-line="12" selection-end-line="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -671,20 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/ClientThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" lean-forward="true" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/common/senders/OneFileSenderThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -696,6 +594,206 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/AuthAccepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="39" column="96" selection-start-line="39" selection-start-column="96" selection-end-line="39" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/gui/ConnectionParams.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/ServerAccepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_121/javafx-src.zip!/javafx/scene/control/TextInputControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="462" selection-start-line="462" selection-end-line="462" />
+          <folding>
+            <element signature="e#17213#17214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/ServerHandlerAccepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="94" column="34" lean-forward="true" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/ServerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="77" column="56" selection-start-line="77" selection-start-column="56" selection-end-line="77" selection-end-column="56" />
+          <folding>
+            <element signature="e#738#746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/accepters/CommandAccepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="148" column="30" selection-start-line="140" selection-start-column="16" selection-end-line="153" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverFolder/new_client/gfh.txt" />
+    <entry file="file://$PROJECT_DIR$/serverFolder/new_client/dry/ggg.txt" />
+    <entry file="jar:///usr/java/jdk1.8.0_121/javafx-src.zip!/javafx/stage/DirectoryChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverFolder/another_client">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/gui/description.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" lean-forward="true" selection-end-line="67" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/ClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="45" column="86" selection-start-line="45" selection-start-column="86" selection-end-line="45" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1453#1726#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/gui/contollers/StartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="70" column="15" lean-forward="true" selection-end-line="147" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/gui/contollers/ClientsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/gui/contollers/LogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/gui/contollers/ConnectedController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="39" lean-forward="true" selection-end-line="165" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/GUI_FXML/server/start.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="15" column="27" selection-end-line="39" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/GUI_FXML/server/clients.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="25" column="15" lean-forward="true" selection-end-line="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/GUI_FXML/server/log.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" lean-forward="true" selection-end-line="15" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/GUI_FXML/server/connected.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" lean-forward="true" selection-end-line="29" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/database/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/gui/ActionsGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding>
+            <element signature="method#renewClientsTable#0;class#ActionsGUI#0" />
+            <element signature="method#updateClientPassword#0;class#ActionsGUI#0" />
+            <element signature="method#setDisableClientsTableButtons#0;class#ActionsGUI#0" />
+            <element signature="method#newConnected#0;class#ActionsGUI#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/gui/ServerGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="27" column="25" lean-forward="true" selection-end-line="113" />
         </state>
       </provider>
     </entry>
@@ -716,7 +814,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -776,7 +874,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: com.alibaba:fastjson:1.2.44</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

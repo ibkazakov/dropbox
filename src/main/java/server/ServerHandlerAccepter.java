@@ -4,8 +4,12 @@ import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.util.ReferenceCountUtil;
+import server.gui.ActionsGUI;
 
 import java.nio.file.Path;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 public class ServerHandlerAccepter extends ChannelInboundHandlerAdapter {
@@ -15,11 +19,15 @@ public class ServerHandlerAccepter extends ChannelInboundHandlerAdapter {
     private AuthAccepter authAccepter;
     private String clientName;
 
+    private List<String> clientsList;
 
 
-    public ServerHandlerAccepter(Path serverPath) {
+
+    public ServerHandlerAccepter(Path serverPath, List<String> clientsList) {
         this.authAccepter = new AuthAccepter(this);
         this.serverAccepter = new ServerAccepter(serverPath);
+        this.clientsList = clientsList;
+
     }
 
 
@@ -27,7 +35,6 @@ public class ServerHandlerAccepter extends ChannelInboundHandlerAdapter {
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
         try {
             String jsonString = (String) msg;
-
             // point to give it to inner clientsMap api:
             if (authMode) {
                String authAnswer = authAccepter.accept(jsonString);
@@ -35,6 +42,9 @@ public class ServerHandlerAccepter extends ChannelInboundHandlerAdapter {
                     // successful auth and register client
                     Channel newClientChannel = ctx.channel();
                     serverAccepter.setClientName(clientName);
+                    clientsList.add(clientName);
+                    ActionsGUI.authChannel(ctx.channel().remoteAddress().toString(), clientName);
+                    ActionsGUI.logMessage(ctx.channel().remoteAddress() + " successfully auth as " + clientName);
                     serverAccepter.setClientChannel(newClientChannel);
                 }
 
@@ -43,7 +53,11 @@ public class ServerHandlerAccepter extends ChannelInboundHandlerAdapter {
                 serverAccepter.accept(jsonString);
             }
 
-        } finally {
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+        finally {
             ReferenceCountUtil.release(msg);
         }
     }
@@ -52,19 +66,41 @@ public class ServerHandlerAccepter extends ChannelInboundHandlerAdapter {
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
         cause.printStackTrace();
-        serverAccepter.clear();
-        ctx.close();
+        endConnection(ctx);
+    }
+
+    @Override
+    public void channelActive(ChannelHandlerContext ctx) throws Exception {
+        ActionsGUI.newConnected(ctx.channel());
+        ActionsGUI.logMessage("Unauth " + ctx.channel().remoteAddress() + " client connected...");
     }
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
-        serverAccepter.clear();
-        ctx.close();
+        endConnection(ctx);
     }
 
 
     public void successAuth(String clientName) {
         authMode = false;
         this.clientName = clientName;
+    }
+
+    public List<String> getClientsList() {
+        return clientsList;
+    }
+
+    private void endConnection(ChannelHandlerContext ctx) throws Exception {
+        if (authMode) {
+            ActionsGUI.logMessage("Unauth " + ctx.channel().remoteAddress() + " disconnected");
+        }
+        else {
+            clientsList.remove(clientName);
+            ActionsGUI.logMessage("client " + clientName +
+                    " ( " + ctx.channel().remoteAddress() + " ) " + "disconnected");
+        }
+        ActionsGUI.channelDisconnected(ctx.channel());
+        serverAccepter.clear();
+        ctx.close();
     }
 }

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TableColumn?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="server.gui.contollers.ConnectedController">
+
+    <VBox>
+        <TableView prefHeight="400.0" prefWidth="500.0" onMouseClicked="#selectTable" fx:id="connectTable">
+            <columns>
+                <TableColumn prefWidth="300.0" text="remoteAddress" fx:id="remoteAddress" resizable="false"/>
+                <TableColumn prefWidth="200.0" text="clientName" fx:id="clientName" resizable="false"/>
+            </columns>
+        </TableView>
+
+        <HBox>
+            <TextField prefWidth="300.0"  fx:id="disconnectField" editable="false"  promptText= "remoteAddress" />
+            <Button text="disconnect" fx:id="disconnectButton" prefWidth="200.0"/>
+        </HBox>
+
+    </VBox>
+
+
+</AnchorPane>

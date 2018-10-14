@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="server.gui.contollers.ClientsController"
+            prefHeight="400.0" prefWidth="700.0">
+
+    <VBox>
+        <TableView prefHeight="400.0" prefWidth="700.0" fx:id="clientsTable" onMouseClicked="#selectTable" >
+            <columns>
+                <TableColumn prefWidth="350.0" text="clientName" fx:id="clientName" resizable="false"/>
+                <TableColumn prefWidth="350.0" text="password" fx:id="password" resizable="false"/>
+            </columns>
+        </TableView>
+
+        <HBox>
+            <TextField prefWidth="250.0"  fx:id="clientCreateField" promptText="clientName" />
+            <TextField prefWidth="250.0"  fx:id="passwordCreateField" promptText="password" />
+            <Button text="create client" fx:id="createButton" prefWidth="200.0" disable="true" />
+        </HBox>
+
+        <HBox>
+            <TextField prefWidth="250.0"  fx:id="clientUpdateField" promptText="clientName" editable="false" />
+            <TextField prefWidth="250.0"  fx:id="passwordUpdateField" promptText="password" />
+            <Button text="update password" fx:id="updateButton" prefWidth="200.0" disable="true" />
+        </HBox>
+
+        <HBox>
+            <TextField prefWidth="500.0"  fx:id="clientDeleteField" promptText="clientName" editable="false" />
+            <Button text="delete client" fx:id="deleteButton" prefWidth="200.0" disable="true" />
+        </HBox>
+
+        <Button text="renew clients list" fx:id="renewButton" prefWidth="700.0" disable="true" />
+
+    </VBox>
+
+</AnchorPane>

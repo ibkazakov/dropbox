@@ -7,14 +7,14 @@ public class Client {
         ClientThread clientThread = new ClientThread(Paths.get("someFiles"));
         clientThread.start();
         ClientHandler handler = clientThread.getHandler();
-        handler.tryAuth("default_client", "password");
+        handler.tryAuth("another_client", "password1");
         ClientSender clientSender = handler.getClientSender();
         /*clientSender.create_dir("newDir1");
         clientSender.post("hegel.pdf");
         clientSender.get("post.txt");
         */
         // clientSender.move("6.txt", "renamed.txt");
-         clientSender.delete("postedfile.txt");
+         // clientSender.delete("renamed.txt");
          clientSender.getfilelist();
     }
 
