@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="dropboxServer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/dropboxServer_jar</output-path>
+    <root id="archive" name="dropbox.jar">
+      <element id="module-output" name="dropbox" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.25.Final/netty-all-4.1.25.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.44/fastjson-1.2.44.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.44" />
+      <element id="library" level="project" name="Maven: io.netty:netty-all:4.1.25.Final" />
+      <element id="library" level="project" name="Maven: org.xerial:sqlite-jdbc:3.8.11.1" />
+    </root>
+  </artifact>
+</component>

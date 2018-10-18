@@ -16,7 +16,7 @@
 
 <dependencies>
 
-    <!-- SERIALIZATOR -->
+    <!-- SERIALIZATOR FAST_JSON -->
     <dependency>
         <groupId>com.alibaba</groupId>
         <artifactId>fastjson</artifactId>
@@ -30,7 +30,7 @@
         <version>4.1.25.Final</version>
     </dependency>
 
-    <!-- SQLLITE DATABASE for clients auth -->
+    <!-- SQLITE DATABASE for clients auth -->
     <dependency>
         <groupId>org.xerial</groupId>
         <artifactId>sqlite-jdbc</artifactId>
@@ -38,5 +38,6 @@
     </dependency>
 
 </dependencies>
+
 
 </project>

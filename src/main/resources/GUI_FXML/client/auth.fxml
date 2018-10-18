@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.gui.controllers.AuthController">
+
+    <VBox layoutX="38.0" layoutY="111.0" prefWidth="324.0">
+
+        <HBox maxWidth="Infinity" prefWidth="271.0">
+            <Label alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="100.0" text="clientName " />
+            <TextField prefHeight="25.0" prefWidth="228.0" promptText="clientName" fx:id="clientNameField" />
+        </HBox>
+
+        <HBox maxWidth="Infinity" prefWidth="271.0">
+            <Label alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="100.0" text="password " />
+            <TextField prefHeight="25.0" prefWidth="228.0" promptText="password" fx:id="passwordField" />
+        </HBox>
+
+        <HBox prefHeight="25.0" prefWidth="271.0">
+            <Button maxWidth="Infinity" text="auth" fx:id="authButton" onMouseClicked="#tryAuth" />
+            <Button maxWidth="Infinity" text="disconnect" fx:id="disconnectButton" onMouseClicked="#disconnect" />
+        </HBox>
+
+    </VBox>
+
+</AnchorPane>

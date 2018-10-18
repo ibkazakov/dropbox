@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.gui.controllers.WorkspaceController">
+
+    <VBox>
+
+        <MenuBar prefHeight="30.0" prefWidth="1200.0">
+            <menus>
+                <Menu text="Cloud">
+                    <items>
+                        <MenuItem text="Disconnect" onAction="#disconnect" />
+                        <MenuItem text="Quit" onAction="#quit" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+
+        <HBox prefWidth="1200.0">
+            <VBox>
+                <Label text="Локальное хранилище" prefWidth="600.0" alignment="CENTER" contentDisplay="CENTER" textAlignment="CENTER" >
+                    <font>
+                        <Font name="System Bold" size="14.0"/>
+                    </font>
+                </Label >
+                <TreeTableView prefWidth="600.0" prefHeight="600.0" fx:id="localTable">
+                    <columns>
+                        <TreeTableColumn text="Имя"  prefWidth="300.0"  resizable="false" fx:id="localTableName" />
+                        <TreeTableColumn text="Размер" prefWidth="300.0" resizable="false" fx:id="localTableSize" />
+                    </columns>
+                </TreeTableView>
+                <HBox>
+                    <Button text="Отправить" prefWidth="200.0" onAction="#localPost" fx:id="localPostButton" />
+                    <Button text="Удалить" prefWidth="200.0"  onAction="#localDelete" fx:id="localDeleteButton" />
+                    <Button text="Обновить" prefWidth="200.0" onAction="#localUpdate" fx:id="localUpdateButton"/>
+                </HBox>
+            </VBox>
+
+            <VBox>
+                <Label text="Облачное хранилище" prefWidth="600.0" alignment="CENTER" contentDisplay="CENTER" textAlignment="CENTER" >
+                    <font>
+                        <Font name="System Bold" size="14.0"/>
+                    </font>
+                </Label >
+                <TreeTableView prefWidth="600.0" prefHeight="600.0" fx:id="cloudTable">
+                    <columns>
+                        <TreeTableColumn text="Имя"  prefWidth="300.0" resizable="false" fx:id="cloudTableName" />
+                        <TreeTableColumn text="Размер" prefWidth="300.0" resizable="false" fx:id="cloudTableSize" />
+                    </columns>
+                </TreeTableView>
+                <HBox>
+                    <Button text="Скачать" prefWidth="200.0" fx:id="cloudGetButton" onAction="#cloudGet" />
+                    <Button text="Удалить" prefWidth="200.0" fx:id="cloudDeleteButton" onAction="#cloudDelete" />
+                    <Button text="Обновить" prefWidth="200.0" fx:id="cloudUpdateButton" onAction="#cloudUpdate" />
+                </HBox>
+            </VBox>
+        </HBox>
+
+        <Label text="" prefWidth="1200.0" prefHeight="20.0" fx:id="statement" />
+
+    </VBox>
+
+</AnchorPane>

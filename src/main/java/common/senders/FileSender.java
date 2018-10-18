@@ -1,25 +1,26 @@
 package common.senders;
 
-import com.alibaba.fastjson.JSON;
-import common.JSONSerializable.JSONFilePart;
 import common.JSONSerializable.file_dialog.JSONGiveFile;
-import common.accepters.RootAccepter;
+import common.accepters.SendableAccepter;
 
 import java.io.IOException;
-import java.nio.ByteBuffer;
-import java.nio.channels.SeekableByteChannel;
-import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 // FORMAL!
 public class FileSender {
 
+    public static final int BLOCK_SIZE = 2048;
+
+    private ExecutorService executor = Executors.newFixedThreadPool(8);
+
     // map of ids
     private Map<Integer, Path> filesMap = new HashMap<Integer, Path>();
 
-    private RootAccepter uplink;
+    private SendableAccepter uplink;
 
     private int nextfreeID = 1;
 
@@ -33,7 +34,7 @@ public class FileSender {
         return fileID;
     }
 
-    public FileSender(RootAccepter uplink) {
+    public FileSender(SendableAccepter uplink) {
         this.uplink = uplink;
     }
 
@@ -49,9 +50,8 @@ public class FileSender {
     public void send(int fileID) throws IOException {
         Path filePath = filesMap.get(fileID);
         System.out.println(filePath.toString() + " sending!");
-        Thread oneFileSender = new OneFileSenderThread(filePath, fileID, this);
-        oneFileSender.start();
-
+        Runnable oneFileSend = new OneFileSendTask(filePath, fileID, this);
+        executor.submit(oneFileSend);
         // endSending(fileID);
     }
 
@@ -77,6 +77,7 @@ public class FileSender {
 
     public void clear() {
         filesMap.clear();
+        executor.shutdown();
     }
 
 }

@@ -134,7 +134,6 @@ public class ActionsGUI {
         }
     }
 
-
     public synchronized static void setStart(StartController start) {
         ActionsGUI.start = start;
     }

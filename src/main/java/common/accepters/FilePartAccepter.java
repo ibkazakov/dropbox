@@ -16,7 +16,7 @@ public class FilePartAccepter {
 
     private Map<Integer, Path> fileIDMap = new HashMap<Integer, Path>();
 
-    private RootAccepter uplink;
+    private SendableAccepter uplink;
 
     private Path rootPath;
 
@@ -24,7 +24,7 @@ public class FilePartAccepter {
         this.rootPath = rootPath;
     }
 
-    public FilePartAccepter(RootAccepter uplink) {
+    public FilePartAccepter(SendableAccepter uplink) {
         this.uplink = uplink;
     }
 

@@ -9,7 +9,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
-import server.ServerThread;
+import server.netty.ServerThread;
 import server.gui.ActionsGUI;
 
 import java.net.URL;
